@@ -1,0 +1,13 @@
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\bin\Debug\netcoreapp3.1\DZ_Arrays.exe
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\bin\Debug\netcoreapp3.1\DZ_Arrays.deps.json
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\bin\Debug\netcoreapp3.1\DZ_Arrays.runtimeconfig.json
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\bin\Debug\netcoreapp3.1\DZ_Arrays.runtimeconfig.dev.json
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\bin\Debug\netcoreapp3.1\DZ_Arrays.dll
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\bin\Debug\netcoreapp3.1\DZ_Arrays.pdb
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\obj\Debug\netcoreapp3.1\DZ_Arrays.csprojAssemblyReference.cache
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\obj\Debug\netcoreapp3.1\DZ_Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\obj\Debug\netcoreapp3.1\DZ_Arrays.AssemblyInfoInputs.cache
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\obj\Debug\netcoreapp3.1\DZ_Arrays.AssemblyInfo.cs
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\obj\Debug\netcoreapp3.1\DZ_Arrays.dll
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\obj\Debug\netcoreapp3.1\DZ_Arrays.pdb
+C:\Users\Tolmasbek\Desktop\code\DZ_2020_03_31_Arrays\obj\Debug\netcoreapp3.1\DZ_Arrays.genruntimeconfig.cache
