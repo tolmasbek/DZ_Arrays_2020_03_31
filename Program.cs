@@ -11,6 +11,7 @@ namespace DZ_Arrays
              *      A. Выучите основные конструкции и понятия, рассмотренные на уроке.
              */
 
+             System.Console.WriteLine("/////////////////////////////ZADANIE_1////////////////////////////////");
              SolutionOne();                                         // Возвращает метод static void SolutionOne()
 
              /*
@@ -24,6 +25,8 @@ namespace DZ_Arrays
               *             • Среднее арифметическое всех элементов;
               *             • Вывести все нечетные значения;
               */
+
+              System.Console.WriteLine("/////////////////////////////ZADANIE_2////////////////////////////////");
 
                     System.Console.Write("Введите размер массива N = ");
 
@@ -39,6 +42,7 @@ namespace DZ_Arrays
                 }
                 
                 // Ввыведем на экран заполненный массив
+                    System.Console.Write("Созданный массив ArrayN: ");
                 for(int j = 0; j < ArrayN.Length; j++)
                 {
                     System.Console.Write(ArrayN[j] + " ");          // Значения Элементы массива
@@ -89,7 +93,7 @@ namespace DZ_Arrays
                     System.Console.WriteLine();
                     System.Console.WriteLine("Сумма элементов массива ArrayN = " + sum);
                     System.Console.WriteLine("Среднее арифметическое элементов массива ArrayN = " + avg);
-                
+
 
               /*
                *    • Задание 3
@@ -97,7 +101,32 @@ namespace DZ_Arrays
                *        элементов и возвращает инвертированный массив (элементы массива в обратном
                *        порядке).
                */
-                    
+
+                System.Console.WriteLine("/////////////////////////////ZADANIE_3////////////////////////////////");
+
+                    // Ввыведем на экран заполненный массив который создали на верху на Задании 1
+                System.Console.Write("Выше созданный массив ArrayN: ");
+                for(int j = 0; j < ArrayN.Length; j++)
+                {
+                    System.Console.Write(ArrayN[j] + " ");          // Значения Элементы массива
+                }
+                System.Console.WriteLine();
+
+                int pusto = 0;
+                for(int i = 0, j = ArrayN.Length - 1; i < j; i++, j--)  // каждый раз пока i<j уменьшение размера массива и вход в блок цикла
+                {                                                       // и вход в блок цикла
+                        pusto = ArrayN[i];                              //    
+                    ArrayN[i] = ArrayN[j];                              // Меняем местами элементы
+                    ArrayN[j] = pusto;                                  //
+                }
+
+                System.Console.Write("Инвертированный массив ArrayN: ");
+                for(int j = 0; j < ArrayN.Length; j++)
+                {
+                    System.Console.Write(ArrayN[j] + " ");          // Значения инвертированного массива
+                }
+                System.Console.WriteLine();
+               
                /*
                 *   • Задание 4
                 *       A. Создать массив размера N элементов, заполнить его произвольными целыми
@@ -115,12 +144,14 @@ namespace DZ_Arrays
                 *               скопированы из исходного массива.
                 */
 
+                System.Console.WriteLine("/////////////////////////////ZADANIE_4////////////////////////////////");
+
                 Console.ReadKey();
         }
 
         static void SolutionOne()
         {
-            System.Console.WriteLine("/////////////////////////////OK////////////////////////////////");
+            System.Console.WriteLine("/////////////////////////////////OK///////////////////////////////////");
         }
     }
 }
