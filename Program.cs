@@ -210,7 +210,7 @@ namespace DZ_Arrays
                 
                 Console.ReadKey();
         }
-
+        //
         static void SolutionOne()
         {
             System.Console.WriteLine("/////////////////////////////////OK///////////////////////////////////");
